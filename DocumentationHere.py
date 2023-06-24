@@ -501,9 +501,7 @@ print("Training finished.")
 
 #___________________________________________________________________________________________________________
 
-
-#The number of images generated in each epoch is determined by the batch size,
-# which is set to 64 in this case. So, in each epoch, the generator will generate 64 fake images,
-# and the discriminator will train on a combination of 64 real images and 64 fake images.
+# We usually use rule of thumb thing in adjusting Batch Size. Determine a suitable batch according to your dataset's total images.
+# you can save weighs and load then again using keras
     
     
