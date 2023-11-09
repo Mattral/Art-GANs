@@ -1,8 +1,6 @@
 # Test Run
 # Only aims to read through commments
-
-# You need to fix Indentation to run this
-
+# need to fix Indentation 
 
 import tensorflow.keras as keras
 import numpy as np
