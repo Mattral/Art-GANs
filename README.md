@@ -96,3 +96,4 @@ python test.py
 
 ## Contributing
 - I welcome contributions to the Art-GANs project. If you have ideas for improvements or would like to report issues, please feel free to submit pull requests or bug reports. Make sure to follow coding standards and conventions when contributing.
+
