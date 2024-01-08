@@ -2,6 +2,7 @@
 # Only aims to read through commments
 # need to fix Indentation 
 
+
 import tensorflow.keras as keras
 import numpy as np
 # np.random.seed(1337)
