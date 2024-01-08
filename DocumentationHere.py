@@ -98,13 +98,13 @@ This creates a sequential model called cnn that consists of several layers. The 
 The second layer is another dense layer with 16 * 16 * 32 neurons, followed by a leaky ReLU activation function.
 The third layer reshapes the output of the second layer into a 16 x 16 x 32 tensor.
 The fourth layer upsamples the tensor by a factor of 2 using a 2D upsampling layer.
-#The fifth layer is a 2D convolutional layer with 256 filters, a filter size of 5, a "same" padding scheme,
-#and a glorot_uniform kernel initializer. It is followed by a leaky ReLU activation function.
-#The sixth layer upsamples the tensor by another factor of 2.
-#The seventh layer is another 2D convolutional layer with 128 filters, a filter size of 5,
-#a "same" padding scheme, and a glorot_uniform kernel initializer. It is followed by a leaky ReLU activation function.
-#Finally, the eighth layer is a 2D convolutional layer with 3 filters, a filter size of 2,
-#a "same" padding scheme, a tanh activation function, and a glorot_uniform kernel initializer.
+The fifth layer is a 2D convolutional layer with 256 filters, a filter size of 5, a "same" padding scheme,
+and a glorot_uniform kernel initializer. It is followed by a leaky ReLU activation function.
+The sixth layer upsamples the tensor by another factor of 2.
+The seventh layer is another 2D convolutional layer with 128 filters, a filter size of 5,
+a "same" padding scheme, and a glorot_uniform kernel initializer. It is followed by a leaky ReLU activation function.
+Finally, the eighth layer is a 2D convolutional layer with 3 filters, a filter size of 2,
+a "same" padding scheme, a tanh activation function, and a glorot_uniform kernel initializer.
 '''
 
         cnn = keras.Sequential([
