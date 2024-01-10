@@ -8,7 +8,6 @@ import os
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 import gc
-print("done imports")
 
 def normImage(img):
     img = (img / 127.5) - 1
