@@ -1,4 +1,3 @@
-
 # Art-GANs
 Art work generation with generative adversarial networks. Make sure to read external documentations about GANs before testing.
 Will Update further progress.
