@@ -31,10 +31,11 @@ import gc
 
 
 
-#This defines a function called normImage
-#that takes in an image and normalizes its pixel values to the range [-1, 1].
-
 def normImage(img):
+ '''
+This defines a function called normImage
+that takes in an image and normalizes its pixel values to the range [-1, 1].
+'''
     img = (img / 127.5) - 1
     return img
 
