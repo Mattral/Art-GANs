@@ -48,12 +48,16 @@ def denormImage(img):
     img = (img + 1) * 127.5
     return img.astype(np.uint8)
 
-
-#This defines a custom loss function called wassersteinLoss that takes in two inputs: y_true and y_pred.
-#This function calculates the Wasserstein loss,
-#which is a differentiable distance metric used to measure the distance between two probability distributions.
-
+'''
+This defines a custom loss function called wassersteinLoss that takes in two inputs: y_true and y_pred.
+This function calculates the Wasserstein loss,
+which is a differentiable distance metric used to measure the distance between two probability distributions.
+'''
 def wassersteinLoss(y_true, y_pred):
+      '''
+     This defines a function called denormImage that takes in a normalized image and
+     denormalizes its pixel values back to the range [0, 255]
+     '''
      return keras.backend.mean(y_true * y_pred)
 
 
