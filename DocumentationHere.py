@@ -32,19 +32,20 @@ import gc
 
 
 def normImage(img):
- '''
-This defines a function called normImage
-that takes in an image and normalizes its pixel values to the range [-1, 1].
-'''
+    '''
+   This defines a function called normImage
+   that takes in an image and normalizes its pixel values to the range [-1, 1].
+   '''
     img = (img / 127.5) - 1
     return img
 
 
-#This defines a function called denormImage that takes in a normalized image and
-#denormalizes its pixel values back to the range [0, 255]
-
-    def denormImage(img):
-        img = (img + 1) * 127.5
+def denormImage(img):
+    '''
+   This defines a function called denormImage that takes in a normalized image and
+   denormalizes its pixel values back to the range [0, 255]
+   '''
+    img = (img + 1) * 127.5
     return img.astype(np.uint8)
 
 
