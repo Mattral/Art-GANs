@@ -469,13 +469,14 @@ def generateNoise(self, batchSize):
 #___________________________________________________________________________________________________________
 
 
+    '''
+    This is a function that can be used to plot loss values during training.
+    It takes a dictionary of losses as input, where the keys are the names of the loss functions
+    and the values are lists of loss values for each epoch.
     
-    # This is a function that can be used to plot loss values during training.
-    # It takes a dictionary of losses as input, where the keys are the names of the loss functions
-    # and the values are lists of loss values for each epoch.
-    
-    #This would generate two figures, one for the "generator" loss and one for the "discriminator" loss,
-    # each with four data points plotted.
+    This would generate two figures, one for the "generator" loss and one for the "discriminator" loss,
+    each with four data points plotted.
+    '''
 
 
     def plotLosses(losses:dict):
