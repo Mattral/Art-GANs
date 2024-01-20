@@ -63,10 +63,10 @@ def wassersteinLoss(y_true, y_pred):
 
 
 class nftGAN():
-
-    #noiseShape specifies the shape of the noise vector that is used as input to the generator,
-    #imageShape specifies the shape of the output images.
-    
+    '''
+    noiseShape specifies the shape of the noise vector that is used as input to the generator,
+    imageShape specifies the shape of the output images.
+    '''
     def __init__(self, noiseShape, imageShape):
 
         # no. of classes for GAN
