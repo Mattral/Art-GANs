@@ -267,21 +267,21 @@ The critic is not updated with these fake images as it is not trainable.
 
 
 
+    '''
+    This code implements the training loop of a GAN model.
+    The loop iterates through epochs and batches of data.
+    In each batch, it loads real images and generates fake images with the generator model.
+    Then, it prepares the data for training by concatenating real and fake images,
+    and generating labels for the discriminator and the adversarial models.
     
-    # This code implements the training loop of a GAN model.
-    # The loop iterates through epochs and batches of data.
-    # In each batch, it loads real images and generates fake images with the generator model.
-    # Then, it prepares the data for training by concatenating real and fake images,
-    # and generating labels for the discriminator and the adversarial models.
+    After that, it trains the critic model on the real and fake images with their respective labels
+    and calculates its loss. Next, it trains the adversarial model on the generated noise and labels,
+    also calculating its loss
     
-    #After that, it trains the critic model on the real and fake images with their respective labels
-    # and calculates its loss. Next, it trains the adversarial model on the generated noise and labels,
-    # also calculating its loss
-    
-    # The average loss of the discriminator and the adversarial models are stored
-    # in two deque objects for logging purposes.
-    # At the end of each epoch, the average losses are printed.
-
+    The average loss of the discriminator and the adversarial models are stored
+    in two deque objects for logging purposes.
+    At the end of each epoch, the average losses are printed.
+    '''
 
     
     def fit(self, epochs, batchSize):
