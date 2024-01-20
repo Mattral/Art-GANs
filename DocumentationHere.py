@@ -161,20 +161,20 @@ class nftGAN():
 #___________________________________________________________________________________________________________
 
 
+    '''
+    The generateCriticer() method defines the critic (or discriminator) model of the GAN.
+    This model takes an image as input and produces two outputs:
+    one that is a real/fake decision and one that is a classification decision.
 
-    #The generateCriticer() method defines the critic (or discriminator) model of the GAN.
-    #This model takes an image as input and produces two outputs:
-    #one that is a real/fake decision and one that is a classification decision.
+     series of convolutional layers that extract features from the input image.
+     The extracted features are then flattened and passed through two dense layers to produce the two output predictions.
 
-    # series of convolutional layers that extract features from the input image.
-    # The extracted features are then flattened and passed through two dense layers to produce the two output predictions.
-
-    # The Conv2D layers have a 3x3 kernel size with padding set to "same" and an activation function of "relu".
-    # The first layer has 32 filters, the second layer has 64 filters, the third layer has 128 filters,
-    # and the fourth layer has 256 filters. Each convolutional layer
-    # is followed by a LeakyReLU() activation function with a negative slope of 0.2 to prevent the gradient from vanishing.
-    # After each convolutional layer, there is a Dropout() layer with a dropout rate of 0.3 to prevent overfitting.
-         
+     The Conv2D layers have a 3x3 kernel size with padding set to "same" and an activation function of "relu".
+     The first layer has 32 filters, the second layer has 64 filters, the third layer has 128 filters,
+     and the fourth layer has 256 filters. Each convolutional layer
+     is followed by a LeakyReLU() activation function with a negative slope of 0.2 to prevent the gradient from vanishing.
+     After each convolutional layer, there is a Dropout() layer with a dropout rate of 0.3 to prevent overfitting.
+     '''  
     
     def generateCriticer(self):       
         cnn = keras.Sequential([
