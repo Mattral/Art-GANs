@@ -351,11 +351,12 @@ class nftGAN():
 
 
 
-
-#This function generates random noise for the generator network.
-# It takes in the batch size and returns an array of shape (batchSize, self.noiseShape),
-# where each element is a random number generated from a normal distribution
-# with mean 0 and standard deviation 1.
+'''
+This function generates random noise for the generator network.
+It takes in the batch size and returns an array of shape (batchSize, self.noiseShape),
+where each element is a random number generated from a normal distribution
+with mean 0 and standard deviation 1.
+'''
     
 
 def generateNoise(self, batchSize):
