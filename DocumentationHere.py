@@ -424,18 +424,19 @@ def generateNoise(self, batchSize):
 
 
 
-
-    #This function getSamplesFromDataset loads a batch of samples from the dataset.
-    # It takes two arguments: countStart and countEnd which define the range of samples to be loaded.
-    # It first reads the file names of the images in the given range from the images directory of the dataset
-    # and then loads the images by calling the loadImage function.
-    # Then, it reads the corresponding labels from the labels.txt file and converts them to one-hot encoded format.
+    '''
+    This function getSamplesFromDataset loads a batch of samples from the dataset.
+    It takes two arguments: countStart and countEnd which define the range of samples to be loaded.
+    It first reads the file names of the images in the given range from the images directory of the dataset
+    and then loads the images by calling the loadImage function.
+    Then, it reads the corresponding labels from the labels.txt file and converts them to one-hot encoded format.
         
     
-    # In this implementation, the labels are converted to integers where the original labels are 1, 4, and 5,
-    # and they are mapped to 0, 1, and 2, respectively.
-    # This is done by iterating over the labels and checking each label
-    # to determine the corresponding integer value.
+    In this implementation, the labels are converted to integers where the original labels are 1, 4, and 5,
+    and they are mapped to 0, 1, and 2, respectively.
+    This is done by iterating over the labels and checking each label
+    to determine the corresponding integer value.
+    '''
 
 
     def getSamplesFromDataset(self, countStart, countEnd):
