@@ -4,6 +4,7 @@ Will Update further progress.
 
 Magic will not happen just by runnning this code, you need to adjust according to data and shape of image. Read comments in DocumentationHere.py before editing or modifying anything.
 
+
 # Art-GANs
 
 Art-GANs is a project for generating art using Generative Adversarial Networks (GANs). It leverages the power of deep learning to create stunning and imaginative pieces of art. Please take the time to read through the documentation before running or modifying the code.
