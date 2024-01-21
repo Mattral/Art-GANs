@@ -9,6 +9,7 @@ Magic will not happen just by runnning this code, you need to adjust according t
 
 Art-GANs is a project for generating art using Generative Adversarial Networks (GANs). It leverages the power of deep learning to create stunning and imaginative pieces of art. Please take the time to read through the documentation before running or modifying the code.
 
+
 ## Table of Contents
 
 - [About](#about)
