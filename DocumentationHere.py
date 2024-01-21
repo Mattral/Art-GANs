@@ -1,6 +1,6 @@
 '''
 Test Run
- Only aims to read through commments
+Only aims to read through commments
 '''
 
 import tensorflow.keras as keras
