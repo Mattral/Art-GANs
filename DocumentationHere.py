@@ -402,8 +402,8 @@ def generateNoise(self, batchSize):
 
     
     
-#___________________________________________________________________________________________________________
-
+'''___________________________________________________________________________________________________________
+'''
 
 
 # This function loads an image from the dataset directory and returns it as a normalized numpy array
