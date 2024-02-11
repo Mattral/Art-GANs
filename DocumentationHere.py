@@ -511,6 +511,6 @@ print("Training finished.")
 
 '''
 We usually use rule of thumb thing in adjusting Batch Size. Determine a suitable batch according to your dataset's total images.
-# you can save weighs and load then again using keras
+you can save weighs and load then again using keras
 '''    
     
