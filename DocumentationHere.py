@@ -1,4 +1,3 @@
-
 '''
 Test Documented Run
 Only aims to read through commments
@@ -6,6 +5,7 @@ Only aims to read through commments
 
 import tensorflow.keras as keras
 import numpy as np
+
 # np.random.seed(1337)
 
 #This imports the deque class from the collections module,
