@@ -202,6 +202,7 @@ class EmotionGANRandom():
                 print("-----------------------------------------------------------------")
         return {"Discriminator real": averageDiscriminatorRealLoss, "Discriminator fake": averageDiscriminatorFakeLoss, "Adversial": averageGanLoss}
 
+    
     def generateNoise(self, batchSize):
         return np.random.normal(0, 1, size=(batchSize,) + self.noiseShape)
 
@@ -284,6 +285,10 @@ def plotLosses(losses:dict):
     plt.ylabel("loss")
     plt.legend()
     plt.show()
+
+
+'''______________________________________________________________________________________
+'''
 
 NOISE_SHAPE = (1,1,100)
 EPOCHS = 50
