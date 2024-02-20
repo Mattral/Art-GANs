@@ -1,3 +1,4 @@
+
 import unittest
 from your_module import nftGAN  # Replace 'your_module' with the actual name of your module
 
