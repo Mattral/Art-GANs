@@ -1,10 +1,9 @@
 import unittest
-
 from your_module import nftGAN  # Replace 'your_module' with the actual name of your module
 
-class TestNftGAN(unittest.TestCase):
 
-    
+class TestNftGAN(unittest.TestCase):
+   
     def setUp(self):
         # Initialize the GAN object and other setup if needed
         self.gan = nftGAN(NOISE_SHAPE, IMAGE_SHAPE)  # Initialize with appropriate arguments
