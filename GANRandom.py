@@ -1,5 +1,6 @@
 import tensorflow.keras as keras
 import numpy as np
+
 np.random.seed(1337)
 from collections import deque
 import time
