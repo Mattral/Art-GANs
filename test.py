@@ -1,7 +1,6 @@
 import unittest
 from your_module import nftGAN  # Replace 'your_module' with the actual name of your module
 
-
 class TestNftGAN(unittest.TestCase):
    
     def setUp(self):
@@ -33,4 +32,4 @@ class TestNftGAN(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-
+   
