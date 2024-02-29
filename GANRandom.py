@@ -297,6 +297,7 @@ EPOCHS = 50
 BATCH_SIZE = 128
 IMAGE_SHAPE = (64,64,3)
 
+
 if __name__ == "__main__":
     gan = EmotionGANRandom(NOISE_SHAPE, IMAGE_SHAPE)
     # Train on previously progress / comment line above in this case
