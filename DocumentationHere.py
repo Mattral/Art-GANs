@@ -10,6 +10,7 @@ np.random.seed(1337)
 
 #This imports the deque class from the collections module,
 #which is used to create a double-ended queue data structure.
+
 from collections import deque
 
 import time
