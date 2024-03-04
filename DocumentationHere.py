@@ -10,22 +10,17 @@ np.random.seed(1337)
 
 #This imports the deque class from the collections module,
 #which is used to create a double-ended queue data structure.
-
 from collections import deque
 
 import time
-
-# Imports Python Imaging Library (PIL)
 import PIL
 import os
-
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 
 #This imports the garbage collector module,
 #which is used to deallocate memory that is no longer being used
 import gc
-
 
 
 
