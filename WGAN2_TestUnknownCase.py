@@ -7,6 +7,7 @@ from collections import deque
 import time
 import PIL
 import os
+
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 import gc
