@@ -1,4 +1,3 @@
-
 '''
 Test Documented Run
 Only aims to read through commments
@@ -27,7 +26,6 @@ import gc
 
 '''___________________________________________End of Imports_________________________________________________
 '''
-
 
 
 def normImage(img):
