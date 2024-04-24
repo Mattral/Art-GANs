@@ -6,7 +6,7 @@ Only aims to read through commments
 import tensorflow.keras as keras
 import numpy as np
 
-#np.random.seed(1337)
+np.random.seed(1337)
 
 #This imports the deque class from the collections module,
 #which is used to create a double-ended queue data structure.
